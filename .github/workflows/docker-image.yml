@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t crypto-rnn .
     - name: Run the Docker image
-      run: docker build run -it --rm crypto-rnn
+      run: docker build run -i --rm crypto-rnn
